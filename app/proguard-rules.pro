@@ -1,0 +1,7 @@
+-keep class io.github.openspacedrepetition.** { *; }
+-keep class com.fasterxml.jackson.** { *; }
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod,Record
+-dontwarn com.fasterxml.jackson.**
+-dontwarn java.beans.**
+-dontwarn org.w3c.dom.bootstrap.**
+-dontwarn lombok.**
